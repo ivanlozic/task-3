@@ -9,8 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     breakpoints: {
       375: {
+        slidePrevClass: "hidden",
         slidesPerView: 1.05,
-        spaceBetween: 10,
+        spaceBetween: 8,
       },
       1440: {
         slidesPerView: 2.8,
